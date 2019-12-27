@@ -6,7 +6,7 @@ router.get('/', (req, res)=>{
 })
 
 router.get('/about', (req, res)=>{
-    res.render('detail', {detial:"얼굴만 큼"})
+    res.render('detail', {detail:"얼굴만 큼"})
 })
 
 module.exports = router
